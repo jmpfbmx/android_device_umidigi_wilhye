@@ -28,6 +28,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Snap
 
+# Charger
+PRODUCT_PACKAGES += \
+    libsuspend
+
 # Dex
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI
