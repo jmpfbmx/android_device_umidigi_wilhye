@@ -51,6 +51,9 @@ USE_XML_AUDIO_POLICY_CONF := 1
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
+# Charger
+BOARD_CHARGER_ENABLE_SUSPEND := true
+
 # Kernel
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2 androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0x40078000
