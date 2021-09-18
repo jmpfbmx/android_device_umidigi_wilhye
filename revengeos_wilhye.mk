@@ -43,7 +43,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-agold
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="wilhye" \
-    PRODUCT_NAME="wilhye" \
-    PRIVATE_BUILD_DESC="Power_EEA-user 9 PPR1.180610.011 1557998488 release-keys"
-
-BUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200705.002/6506677:user/release-keys"
+    PRODUCT_NAME="wilhye"
