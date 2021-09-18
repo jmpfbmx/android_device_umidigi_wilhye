@@ -30,7 +30,8 @@ PRODUCT_PACKAGES += \
 
 # Display
 PRODUCT_PACKAGES += \
-    libvulkan
+    libvulkan \
+    libRSDriver_mtk
 
 # Keylayout
 PRODUCT_COPY_FILES += \
