@@ -55,7 +55,7 @@ BOARD_AVB_ENABLE := false
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
 # Board init
-TARGET_INIT_VENDOR_LIB := //$(LOCAL_PATH):libinit_wilhye
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_bretzel
 TARGET_RECOVERY_DEVICE_MODULES := libinit_wilhye
 
 # Broken
