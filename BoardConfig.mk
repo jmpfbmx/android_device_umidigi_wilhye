@@ -117,8 +117,6 @@ PRODUCT_SOONG_NAMESPACES += vendor/umidigi/wilhye
 
 # Treble
 BOARD_VNDK_VERSION := current
-PRODUCT_TARGET_VNDK_VERSION := 28
-PRODUCT_EXTRA_VNDK_VERSIONS := 28
 
 # System Properties
 TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
