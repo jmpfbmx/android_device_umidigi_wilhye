@@ -21,7 +21,8 @@ AB_OTA_UPDATER := false
 
 # Audio
 PRODUCT_PACKAGES += \
-    audio.a2dp.default
+    audio.a2dp.default \
+    libaacwrapper
 
 # Keylayout
 PRODUCT_COPY_FILES += \
