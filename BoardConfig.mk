@@ -107,6 +107,9 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)/releasetools
 # Sepolicy
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 
+# Soong
+PRODUCT_SOONG_NAMESPACES += vendor/umidigi/wilhye
+
 # Treble
 BOARD_VNDK_VERSION := current
 PRODUCT_TARGET_VNDK_VERSION := 28
