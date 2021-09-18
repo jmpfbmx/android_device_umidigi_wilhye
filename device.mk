@@ -19,6 +19,10 @@ TARGET_SCREEN_WIDTH := 1080
 # A/B
 AB_OTA_UPDATER := false
 
+# Audio
+PRODUCT_PACKAGES += \
+    audio.a2dp.default
+
 # Keylayout
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/ACCDET.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/ACCDET.kl \
