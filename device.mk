@@ -82,3 +82,7 @@ PRODUCT_PACKAGES += \
     init.mt6765.rc \
     fstab.mt6765 \
     init.safailnet.rc
+
+# Shims
+PRODUCT_PACKAGES += \
+    libshim_showlogo
