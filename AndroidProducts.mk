@@ -15,10 +15,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/revengeos_wilhye.mk
+    $(LOCAL_DIR)/mtkosp_wilhye.mk
 
 
 COMMON_LUNCH_CHOICES := \
-    revengeos_wilhye-eng \
-    revengeos_wilhye-user \
-    revengeos_wilhye-userdebug
+    mtkosp_wilhye-eng \
+    mtkosp_wilhye-user \
+    mtkosp_wilhye-userdebug
