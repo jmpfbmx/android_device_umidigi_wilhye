@@ -131,6 +131,9 @@ TARGET_LD_SHIM_LIBS := /system/lib/libshowlogo.so|libshim_showlogo.so
 # Soong
 PRODUCT_SOONG_NAMESPACES += vendor/umidigi/wilhye
 
+# Releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)/releasetools
+
 # Treble
 BOARD_VNDK_VERSION := current
 
