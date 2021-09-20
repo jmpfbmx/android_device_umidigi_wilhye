@@ -67,3 +67,6 @@ wifi.direct.interface=p2p0
 
 # Zygote
 ro.zygote.preload.enable=0
+
+# Media
+debug.stagefright.ccodec=0
